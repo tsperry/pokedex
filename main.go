@@ -1,9 +1,5 @@
 package main
 
-import {
-	"pokedexcli/internal/pokecache"
-}
-
 type config struct {
 	commands map[string]cliCommand
 	next     string
